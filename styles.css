@@ -9,8 +9,8 @@ body {
 }
 
 canvas {
-    border: 1px solid #401212;
-    background-color: #ffffff;
+    border: 1px solid #401212; 
+    background-color: #a27474;
 }
 
 #restartButton {
@@ -26,3 +26,4 @@ canvas {
 #restartButton:hover {
     background-color: #070d0d;
 }
+  
