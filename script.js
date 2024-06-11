@@ -25,6 +25,15 @@ document.getElementById('ctx').onmousedown = function() {
     startGame();
 };
 
+// onclick function to restart the game
+document.getElementById('restartButton').onclick = function() {
+    if (runnig) {
+        clearInterval(intervalVar);
+        runnig = false;
+    }
+    startGame();
+};
+
 // function to control the snake by storing the direction values with arrow keys
 document.onkeydown = function(event) {
     //0 - Left
