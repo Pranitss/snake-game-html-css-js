@@ -9,7 +9,7 @@ body {
 }
 
 canvas {
-    border: 1px solid #43c1bf;
+    border: 1px solid #401212;
     background-color: #ffffff;
 }
 
@@ -17,12 +17,12 @@ canvas {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #43c1bf;
+    background-color: #dd5e09;
     border: none;
     color: white;
     cursor: pointer;
 }
 
 #restartButton:hover {
-    background-color: #369fa0;
+    background-color: #070d0d;
 }
